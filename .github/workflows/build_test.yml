@@ -29,6 +29,7 @@ jobs:
         echo "Installing Dependencies..."
         # Add dependency installation commands here
         npm install
+        npm i dotenv
     - name: Run Tests
       run: |
         echo "Running tests..."
